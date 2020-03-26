@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: PHPStan
-        uses: "greg0ire/phpstan-ga@v3"
+        uses: "greg0ire/phpstan-ga@v4"
         env:
           REQUIRE_DEV: 'true'
         with:
