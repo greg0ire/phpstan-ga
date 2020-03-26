@@ -7,5 +7,5 @@ fi
 
 echo "::group::composer install"
 composer install --no-scripts --no-progress --quiet $NO_DEV
-echo "::endgroup"
+echo "::endgroup::"
 /composer/vendor/bin/phpstan $*
